@@ -1,0 +1,33 @@
+{
+  "name": "hello-node",
+  "version": "1.0.0",
+  "description": "A basic Node.js app with Webpack, TypeScript, and SCSS",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "node dist/server.js",
+    "dev": "webpack --watch"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "liquidjs": "^10.21.0",
+    "wrangler": "^3.114.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.9.2",
+    "sass": "^1.69.0",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.4.0",
+    "typescript": "^5.0.0",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.0"
+  }
+}
