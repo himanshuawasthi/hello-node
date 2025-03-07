@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",          // ✅ Ensures ALL compiled files go into "dist/"
+    "rootDir": "src",          // ✅ Ensures TypeScript knows where source files are
+    "module": "CommonJS",
+    "target": "ES6",
+    "strict": true,
+    "esModuleInterop": true
+  }
+}
